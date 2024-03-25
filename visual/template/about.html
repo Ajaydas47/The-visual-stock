@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <!-- Title -->
+    <title>Visual Stock</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="{% static 'assets/img/core-img/favicon.ico' %}">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="{% static 'assets/style.css' %}">
+
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div class="preloader d-flex align-items-center justify-content-center">
+        <div class="lds-ellipsis">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+    <!-- ##### Header Area Start ##### -->
+    <header class="header-area">
+        <!-- Navbar Area -->
+        <div class="oneMusic-main-menu">
+            <div class="classy-nav-container breakpoint-off">
+                <div class="container">
+                    <!-- Menu -->
+                    <nav class="classy-navbar justify-content-between" id="oneMusicNav">
+
+                        <!-- Nav brand -->
+                        <a href="index.html" class="nav-brand"><img src="{% static 'assets/img/core-img/logo.png' %}" alt=""></a>
+
+                        <!-- Navbar Toggler -->
+                        <div class="classy-navbar-toggler">
+                            <span class="navbarToggler"><span></span><span></span><span></span></span>
+                        </div>
+
+                        <!-- Menu -->
+                        <div class="classy-menu">
+
+                            <!-- Close Button -->
+                            <div class="classycloseIcon">
+                                <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                            </div>
+
+                            <!-- Nav Start -->
+                            <div class="classynav">
+                                <ul>
+                                    <li><a href="../">GO BACK</a></li>
+                            </div>
+                            <!-- Nav End -->
+
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ##### Header Area End ##### -->
+
+    <!-- ##### Breadcumb Area Start ##### -->
+    <section class="breadcumb-area bg-img bg-overlay" style="background-image: url('{% static 'assets\img\bg-img\butterfly.jpg' %}');">
+        <div class="bradcumbContent">
+            <p>See what’s new</p>
+            <!-- Additional content here -->
+            <h2>COPY CAT</h2>
+        </div>
+    </section>
+    
+    <!-- ##### Breadcumb Area End ##### -->
+
+    <!-- ##### Login Area Start ##### -->
+    <section class="login-area section-padding-100">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-lg-8">
+                    <div class="login-content">
+                        
+<!--                        &lt;!&ndash; Login Form &ndash;&gt;-->
+                            <div class="row justify-content-center">
+                                <div class="col-12 col-lg-9">
+                                    <div class="about-text text-center mb-70">
+                                        <h5>ABOUT OUR WEBSITE</h5>
+
+                                        <p>It can do a lot of cool things, some of them being:</p><br>
+
+                                             <p>Greet user
+                                                Tell current time and date
+                                                Launch applications/softwares
+                                                Open any website
+                                                Tells about weather of any city
+                                                Open location of any place plus tells the distance between your place and queried place
+                                                Tells your current system status (RAM Usage, battery health, CPU usage)
+                                                Tells about your upcoming events (Google Calendar)
+                                                Tells about any person (via Wikipedia)
+                                                Can search anything on Google
+                                                Can play any song on YouTube
+                                                Tells top headlines (via Times of India)
+                                                Plays music
+                                                Send email (with subject and content)
+                                                Calculate any mathematical expression (example: Alpha, calculate x + 135 - 234 = 345)
+                                                Answer any generic question (via Wolframalpha)
+                                                Take important note in notepad
+                                                Tells a random joke
+                                                Tells your IP address
+                                                Can switch the window
+                                                Can take screenshot and save it with custom filename
+                                                Can hide all files in a folder and also make them visible again
+                                                Has a cool Graphical User Interface
+                                             </p>
+
+                                                <p style="bold"> Enjoy !!!!</p>
+
+                                             <p>Generalized conversations can be made possible by incorporating Natural Language Processing
+                                                GUI can be made more nicer to look at and functional
+                                                 More functionalities can be added
+                                             </p>
+
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!--    &lt;!&ndash; ##### Login Area End ##### &ndash;&gt;-->
+
+    <!-- ##### Footer Area Start ##### -->
+    <footer class="footer-area">
+        <div class="container">
+            <div class="row d-flex flex-wrap align-items-center">
+                <div class="col-12 col-md-6">
+                    <a href="#"><img src="{% static 'assets/img/core-img/logo.png' %}" alt=""></a>
+                    <p class="copywrite-text"><a href="#"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></a>
+                </div>
+
+                <div class="col-12 col-md-6">
+                    <div class="footer-nav">
+                        <ul>
+                            <li><a href="../">GO BACK</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- ##### Footer Area Start ##### -->
+
+    <!-- ##### All Javascript Script ##### -->
+    <!-- jQuery-2.2.4 js -->
+    <script src="{% static 'assets/js/jquery/jquery-2.2.4.min.js' %}"></script>
+    <!-- Popper js -->
+    <script src="{% static 'assets/js/bootstrap/popper.min.js' %}"></script>
+    <!-- Bootstrap js -->
+    <script src="{% static 'assets/js/bootstrap/bootstrap.min.js' %}"></script>
+    <!-- All Plugins js -->
+    <script src="{% static 'assets/js/plugins/plugins.js' %}"></script>
+    <!-- Active js -->
+    <script src="{% static 'assets/js/active.js' %}"></script>
+</body>
+
+</html>
